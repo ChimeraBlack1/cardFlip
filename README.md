@@ -1,0 +1,1 @@
+This is a card flip animation for the Triple Triad game I'm making.
