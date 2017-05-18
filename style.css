@@ -1,10 +1,20 @@
 /* entire container, keeps perspective */
+.cardContainer {
+    
+}
+
+.cardContainer:hover {
+    transform: translateX(50vw);
+    transition: 1.5s;
+}
+
 .flip-container {
 	perspective: 1000px;
+    
 }
 	/* flip the pane when hovered */
 	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateX(360deg) translateX(40vw) rotateY(360deg);
+		transform: rotateY(360deg);
 	}
 
 .flip-container, .front, .back {
@@ -42,6 +52,7 @@ img {
 }
 
 /* back, initially hidden pane */
+
 .back {
 	transform: rotateY(180deg);
 }
