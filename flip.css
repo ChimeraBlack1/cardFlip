@@ -1,7 +1,14 @@
 /* entire container, keeps perspective */
 .cardContainer {
-    transform: translateX(calc(94.5vw - 320px)) translateY(-1vh);
+    transform: translateX(calc(94vw - 320px)) translateY(-1vh);
     transition: 1.5s;
+}
+
+@media(min-width: 950px){
+   .cardContainer {
+        transform: translateX(calc(94.5vw - 320px)) translateY(-1vh);
+        transition: 1.5s;
+    } 
 }
 
 
